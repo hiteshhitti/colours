@@ -16,11 +16,6 @@
 
   <!-- Navigation -->
  
-
- 
-
-
-
   <header class="main-header">
     <div class="logo">
       <span class="logo-c">C</span>olours <span class="logo-sub">MEDIA</span>
@@ -108,24 +103,41 @@
  high, we are transparent in all our dealings and our services are reasonably
  priced.</p>
     </div>
-  </div>
-    <div class="col-span-full text-center mt-16">
-      <p id="advertisingText" class="text-2xl font-bold opacity-0">Advertising</p>
-    </div>
-  
+<!-- 1) Mobile-only (no hide classes, हमेशा दिखेगा) -->
+<div class="md:hidden p-6 text-center">
+  <h2 class="text-2xl font-extrabold text-black mb-4">Advertising</h2>
+  <img src="./color3.jpg" alt="Decorative colour collage"
+       class="mx-auto max-w-xs rounded-lg shadow-xl mb-4" />
+  <p class="text-base leading-relaxed text-black">
+    Advertising is a form of communication used to influence individuals to
+    purchase products or services or support political candidates or ideas.
+    Frequently it communicates a message that includes the name of the
+    product or service and how that product or service could potentially benefit
+    the consumer. Advertising often attempts to persuade potential customers
+    to purchase or to consume a particular brand of product or service.
+  </p>
+</div>
 
-  <!-- SCROLL-IN IMAGE + TEXT -->
-  <div class="w-full flex flex-col md:flex-row justify-center items-center gap-3 mt-2 px-6">
-    <img id="scrollImage2" src="./color3.jpg" alt="Decorative colour collage" class="max-w-[200px] opacity-0 translate-x-full transition-all duration-1000 rounded-lg shadow-xl"/>
-    <div id="scrollText2" class="max-w-xl text-lg leading-relaxed text-black opacity-0 -translate-x-full transition-all duration-1000">
-      <p> Advertising is a form of communication used to influence individuals to
- purchase products or services or support political candidates or ideas.
- Frequently it communicates a message that includes the name of the
- product or service and how that product or service could potentially benefit
- the consumer. Advertising often attempts to persuade potential customers
- to purchase or to consume a particular brand of product or service</p>
+<!-- 2) Desktop-only (animated, md से ऊपर चलेगा) -->
+<div class="hidden md:flex flex-col items-center p-6">
+  <h2 class="text-4xl font-extrabold text-black mb-6">Advertising</h2>
+  <div class="flex flex-row justify-center items-center gap-6">
+    <img id="scrollImage2" src="./color3.jpg" alt="Decorative colour collage"
+         class="max-w-[200px] opacity-0 translate-x-full transition-all duration-1000 rounded-lg shadow-xl" />
+    <div id="scrollText2"
+         class="max-w-xl text-lg leading-relaxed text-black opacity-0 -translate-x-full transition-all duration-1000">
+      <p>
+        Advertising is a form of communication used to influence individuals to
+        purchase products or services or support political candidates or ideas.
+        Frequently it communicates a message that includes the name of the
+        product or service and how that product or service could potentially benefit
+        the consumer. Advertising often attempts to persuade potential customers
+        to purchase or to consume a particular brand of product or service.
+      </p>
     </div>
   </div>
+</div>
+
 
   <!-- TYPES OF ADVERTISING -->
 
